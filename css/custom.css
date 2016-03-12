@@ -1,0 +1,469 @@
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.navbar-inverse {
+    background-color: #000;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+  font-family: 'roboto';
+  padding-right: 50px;
+  font-weight: 100;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #F96262;
+    background-color: transparent;
+    font-weight: 300;
+  }
+
+  .navbar-inverse>ul>li {
+    color: #fff;
+  }
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+/* VIDEO HEADER CSS  */
+
+.video-section .pattern-overlay {
+background-color: 'rgba(71, 71, 71, 0.71)';
+padding: 110px 0 32px;
+min-height: 496px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.video-section h1, .video-section h3{
+text-align:center;
+color: rgba(252, 50, 50, 1);
+text-shadow: 1px 1px 1px #FFF;
+-webkit-text-shadow: 1px 1px 1px #fff;
+-moz-text-shadow: 1px 1px 1px #fff
+}
+.video-section h1{
+
+font-size:85px;
+font-family: 'roboto', serif;
+font-weight:300;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #fff;
+-webkit-text-shadow: 1px 1px 1px #fff;
+-moz-text-shadow: 1px 1px 1px #fff;
+}
+.video-section h3{
+font-family: 'roboto';
+font-size: 35px;
+font-weight:lighter;
+margin: 0px auto 15px;
+color: rgba(252, 50, 50, 1);
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+/* END OF VIDEO HEADER CSS  */
+
+
+.whoiam {
+
+  padding-left: 0px;
+  background-color: black;
+  margin-top: 125px;
+  background-repeat: no-repeat;
+ 
+}
+
+.whoiam p{
+  font-family: 'roboto';
+  font-weight: 300;
+  text-align: right;
+  margin-right: 90px;
+  color: white;
+}
+
+.whoiam h2 {
+  font-family: 'roboto';
+  font-weight: 100;
+  text-align: right;
+  margin-right: 90px;
+  color: white;
+}
+
+.whoiam a:link, a:visited {
+    color: red;
+    background-color: transparent;
+}
+
+
+
+/* Ipad Media query fix the issue with the img*/
+
+@media only screen and (device-width: 768px) {
+  .whoiam img {
+    padding-top: 130px;
+    padding-left: 15px;
+
+  }
+}
+
+/* Other Media query settings whoiam section*/
+
+@media (max-width: 800px) {
+
+.whoiam {
+  padding-bottom: 55px;
+}
+
+.whoiam p {
+  text-align: center;
+  margin-right: 0; 
+}
+
+.whoiam h2 {
+  text-align: center;
+  margin-right: 0;
+  font-weight: 100;
+   padding-top: 10px; 
+}
+
+}
+
+
+/*  Three logos section */
+
+.lavori {
+  padding-top: 35px;
+}
+
+.lavori h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0;
+  font-family: 'roboto';
+}
+
+.lavori p {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+
+
+.rocks h3 {
+  text-align: center;
+  font-family: 'roboto';
+  font-weight: 100;
+  font-size: 4em;
+  padding-bottom: 85px;
+  padding-top: 15px;
+
+}
+
+.rocks {
+
+  padding-bottom: 50px;
+}
+
+
+
+.jumbotron  {
+    padding: 65px 0 65px;
+    position: relative;
+    background-image: url('../img/bf2.jpg');
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'roboto';
+}
+
+
+
+
+.coll {
+
+  padding: 50px;
+}
+
+.coll img {
+  margin-top: 30px;
+}
+
+.coll h3 {
+  font-family: 'roboto';
+  font-weight: 100;
+}
+
+.coll img {
+  width: 100%;
+  height: 100%;
+}
+
+.coll button  {
+  margin-top: 19px;
+}
+
+
+
+
+
+
+
+/* button lavori */
+
+.bottone {background: rgba(252, 50, 50, 1); border-color: rgba(204, 204, 204, 1); color: rgba(255, 255, 255, 1); font-size: 16px; border-radius: 0px; border-width: 0px; padding: 10px 44px;}
+.bottone:hover {background: rgba(194, 0, 0, 1); border-color: rgba(173, 173, 173, 1); color: rgba(252, 252, 252, 1); padding: 10px 44px;}
+.bottone:active, .bottone:focus {background: rgba(255, 102, 0, 1); border-color: rgba(173, 173, 173, 1); color: rgba(255, 255, 255, 1); padding: 10px 44px;}
+
+
+
+.iconn {
+  text-align: right;
+  margin-left: 300px;
+  color: white;
+}
+
+.spacer{padding:5em; padding-bottom:0; }
+
+@media (max-width: 1200px) {    
+  .spacer{padding: 2em;}
+}
+
+
+@media (max-width: 900px) {
+
+  .spacer {padding: 1.5em 1.5em 0 1.5em;
+            
+
+
+  }
+
+}
+
+
+.social a{margin-right: 1em;}
+
+
+
+
+
+
+
+.footer-distributed img {
+
+  max-width: 260px;
+  margin-left: 50px;
+}
+
+
+
+/* FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTER  */
+
+
+
+.footer-distributed{
+  background-color: #000;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: left;
+
+  padding: 50px 60px 40px;
+  margin-top: 80px;
+  overflow: hidden;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  float: left;
+}
+
+
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+
+  margin-top: 0px;
+  margin-left: 50px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 40px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  float: right;
+}
+
+.footer-distributed .footer-right p{
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 42px 0 0;
+  color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+  display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color:  #1f2022;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+
+  font: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color:  #d1d2d2;
+
+  width: 400px;
+  padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+  color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+  color:  #5c666b;
+  opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+  color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+  border-radius: 3px;
+  background-color:  #33383b;
+  color: #ffffff;
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
+}
+
+
+.vertical-center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed form input,
+  .footer-distributed form textarea{
+    width: 250px;
+  }
+
+  .footer-distributed form button{
+    padding: 10px 35px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .footer-distributed{
+    padding: 30px;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right{
+    float: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .footer-distributed .footer-left{
+    margin-bottom: 40px;
+  }
+
+  .footer-distributed form{
+    margin-top: 30px;
+  }
+
+  .footer-distributed form{
+    display: block;
+  }
+
+  .footer-distributed form button{
+    float: none;
+  }
+
+  .footer-distributed .footer-icons a{
+    padding: 20px;
+}
+
+.footer-distributed img{
+  padding: 20px;
+  padding-top: 90px;
+  margin-left: 0;
+}
+
+
+
+.vertical-center {
+    display: none;
+}
+
+
